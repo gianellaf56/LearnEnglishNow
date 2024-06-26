@@ -35,10 +35,14 @@ header nav a {
 	margin: 0 10px;
 	text-decoration: none;
 	transition: color 0.5s ease;
+	padding: 5px 10px;
 }
 
 header nav a:hover {
 	color: #ff6347;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+	transition: background-color 0.5s ease;
 }
 
 header img {
